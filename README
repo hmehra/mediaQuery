@@ -1,0 +1,54 @@
+#
+# Media Based Querying and Searching
+# 
+
+
+TABLE OF CONTENTS
+    1. Directory Structure
+    2. Build Process
+	3. Running the project.
+
+
+1. DIRECTORY STRUCTURE
+======================
+    |-- colorFeatures.java
+    |-- colorTrasform.java
+    |-- entryPoint.java
+    |-- HsvApproach.java
+    |-- openFile.java
+    |-- ImageIO.java
+    |-- imageOperations.java
+    |-- morphOperations.java
+    |-- newApproach.java
+    |-- openFile.java
+
+
+2. BUILD PROCESS
+================
+The project can be compiled using the javac command. For this project, the 
+compilation command will be
+   
+   %javac entryPoint.java
+
+
+3. RUNNING THE PROJECT
+======================
+To run the project, run the following command after running the previous 
+command:
+
+	%java entryPoint
+
+A GUI will present itself with five buttons. 
+Please choose the files in the sequence as below
+	a) Query Image
+	b) Alpha Image, if any
+	c) Search Image
+	
+After the images have been selected, click on the Search-MI button to find the 
+result using technique 1. Do the same for Search-MII button  If the image
+exits in the search image as a sub-image it will be bordered out. It the 
+algorithm is not able to search, the gray image is displayed.
+
+Please reload all images if the search is to be repeated.
+
+--------------------------------------------------------------------------------	
